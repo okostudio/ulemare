@@ -1,0 +1,51 @@
+.navbar {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+    padding: 20px;
+    color: white;
+
+    .container {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .logo {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .nav-links {
+        list-style: none;
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 0 15px;
+        cursor: pointer;
+    }
+
+    .search input {
+        padding: 8px;
+        margin-left: 15px;
+    }
+
+    button {
+        -webkit-box-align: center;
+        align-items: center;
+        background: transparent;
+        border: 0px;
+        box-sizing: border-box;
+        cursor: pointer;
+        display: flex;
+        font-family: inherit;
+        font-size: 0.75rem;
+        font-weight: 300;
+        gap: 0.5rem;
+        padding: 0px;
+
+        color: white;
+        fill: white;
+    }
+}
