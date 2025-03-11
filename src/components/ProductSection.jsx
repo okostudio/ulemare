@@ -7,8 +7,8 @@ const ProductSection = () => {
         <section className="products">
             <div className="container">
                 <div className="intro">
-                    <h2>Endurance meets fashion</h2>
-                    <p>At Ulemare, we appreciate that all life on earth is under threat of extinction. We’re using the resources we have—our business, our investments, our voice and our imaginations—to do something about it.</p>
+                    <h2>Innovative Bags. High-Performance Materials. Precision Craftsmanship.</h2>
+                    <p>A forward-thinking accessories brand redefining bag design with technical materials and expert craftsmanship.</p>
                 </div>
 
                 <div className="image-grid">
@@ -24,6 +24,12 @@ const ProductSection = () => {
                     </div>
                     {/* Repeat for more products */}
                 </div>
+
+                <div className="about">
+                    <h2>About us</h2>
+                    <p>Ulemare is a premium bag and accessories brand that blends cutting-edge technical fabrics with expert craftsmanship. Our designs prioritize durability, structure, and aesthetic appeal, ensuring that every bag is built to perform and last.</p>
+                </div>
+
             </div>
         </section>
     );
